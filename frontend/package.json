@@ -1,0 +1,40 @@
+{
+  "name": "frontend-starter",
+  "version": "1.0.0",
+  "description": "Front end starter pack for take-home interviews",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baronapp/cameo-interview-starterpack.git"
+  },
+  "author": "Dr. Jeff Cameo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baronapp/cameo-interview-starterpack/issues"
+  },
+  "homepage": "https://github.com/baronapp/cameo-interview-starterpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "autoprefixer": "^9.7.6",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
